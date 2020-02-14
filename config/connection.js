@@ -15,11 +15,11 @@ else {
   //else use localhost database for local development.
   //MySQL password is passed into connection.js from the .env file using the dotenv npm package.
   var connection = mysql.createConnection({
-    host: "localhost",
-    port: 3306,
-    user: "root",
-    password: "Braydan$42",
-    database: "burgers_db"
+    host: process.env.DB_HOST,
+    port: process.env.DB_PORT,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASS,
+    database: process.env.DB_NAME
   });
 }
 
