@@ -30,6 +30,11 @@ body {
     /* background-size: cover; */
 }
 
+<<<<<<< HEAD
 .jumbotron {
     padding: 0px !important;
+=======
+..jumbotron {
+    padding: 0px;
+>>>>>>> 55e06ef355c8f4820863f378a9173de2d4f307c2
 }
