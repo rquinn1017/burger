@@ -1,7 +1,7 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "",
+  "description": "Welcome to Quinn Burger",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,9 +19,7 @@
     "body-parser": "^1.18.2",
     "dotenv": "^8.1.0",
     "express-handlebars": "^3.0.0",
-    "express": "^4.16.3",
-    "mysql2": "^1.6.4",
-    "sequelize": "^4.41.2"
+    "express": "^4.16.3"
   },
   "devDependencies": {}
 }
